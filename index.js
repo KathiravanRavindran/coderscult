@@ -17,7 +17,7 @@ async function check() {
   const hashedPassword = await hashValue(getpassword);
 
   if (hashedUsername === usernameHash && hashedPassword === passwordHash) {
-    window.location.href = "https://revein.neocities.org";
+    window.location.href = "coderscult.html";
   } else {
     alert("Invalid details!");
   }
